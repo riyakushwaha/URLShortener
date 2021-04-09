@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  
+  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+</head>
+<body>
+  <div class="navbar">
+
+    <div class="site-name">
+      Shortly
+    </div>
+
+    <nav class="nav">
+      <ul class="nav__items">
+        <li class="nav__item">
+          <a href="#" class="nav-link">Features</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav-link">Pricing</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav-link">Resources</a>
+        </li>
+      </ul>
+
+      <ul class="nav__buttons">
+        <li class="nav__item">
+          <a href="#" class="nav-link">Login</a>
+        </li>
+        <li class="nav__item">
+          <a href="#"class="btn--round btn">Sign Up</a>
+        </li>
+      </ul>
+    </nav>
+
+  </div>
+
+  <header class="header">  
+
+    <div class="header__text-box">
+      <h1 class="heading-primary">
+        More than just shorter links
+      </h1>
+      <p class="header__text">
+        Build your brand’s recognition and get detailed insights on how your links are performing.
+      </p>
+      <a href="#" class="header__cta btn--round btn ">Get Started</a>
+    </div>
+
+    <img src="images/illustration-working.svg" alt="Girl working on laptop" class="header__image">
+
+  </header>
+
+  <main class="main">
+    <section class="links">
+
+      <div class="link__input-box">
+        <input type="text" class="user__link" id="user__link" placeholder="Shorten a link here...">
+        <label class="user__link-label" for="user__link">Please add a link</label>
+        <a href="#" class="btn--rect btn ">Shorten it!</a>
+      </div>
+ 
+      <div class="link__output-boxes">
+
+        <div class="link__output-box data-box--1">
+          <p class="input__link">https://www.frontendmentor.io</p>
+          <p class="output__link">https://reLink/kbudcb</p>
+          <a href="#" class="btn--rect btn data-btn--1 copy-btn">Copy</a>
+        </div>
+
+        <div class="link__output-box data-box--2">
+          <p class="input__link">https://twitter.com/frontendmentor</p>
+          <p class="output__link">https://reLink/bc4299</p>
+          <a href="#" class="btn--rect btn data-btn--2 copy-btn">Copied!</a>
+        </div>
+
+        <div class="link__output-box data-box--3">
+          <p class="input__link">https://linkedin.com/company/frontend-mentor</p>
+          <p class="output__link">https://reLink/bxhiqh</p>
+          <a href="#" class="btn--rect btn data-btn--3 copy-btn">Copy</a>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="statistics">
+
+      <div class="statistics__text-box">
+        <h2 class="heading-secondary">
+          Advanced Statistics
+        </h2>
+        <p class="statistics__text">
+          Track how your links are performing across the web with our advanced statistics dashboard.
+        </p>
+      </div>
+      
+      <div class="statistics__info">
+
+        <hr class="statistics__line">
+
+        <figure class="statistic__box statistic__box--1">
+          <div class="statistic__image">
+          <img src="images/icon-brand-recognition.svg" alt="icon-brand-recognition" class="statistic__img">
+          </div>
+          <figcaption>Brand Recognition</figcaption>
+          <p class="statistic__info-1">
+            Boost your brand recognition with each click. Generic links don’t 
+            mean a thing. Branded links help instil confidence in your content.
+          </p>
+        </figure>
+
+        <figure class="statistic__box statistic__box--2">
+          <div class="statistic__image">
+          <img src="images/icon-detailed-records.svg" alt="icon-detailed-records" class="statistic__img">
+          </div>
+          <figcaption>Detailed Records</figcaption>
+          <p class="statistic__info-2">
+            Gain insights into who is clicking your links. Knowing when and where 
+  people engage with your content helps inform better decisions.
+          </p>
+        </figure>
+
+        <figure class="statistic__box statistic__box--3">
+          <div class="statistic__image">
+          <img src="images/icon-fully-customizable.svg" alt="icon-fully-customizable" class="statistic__img">
+          </div>
+          <figcaption>Fully Customizable</figcaption>
+          <p class="statistic__info-3">
+            Improve brand awareness and content discoverability through customizable 
+  links, supercharging audience engagement.
+          </p>
+        </figure>
+
+      </div>
+    </section>
+
+    <section class="boost">
+      <h2 class="heading-secondary">
+        Boost your links today
+      </h2>
+      <a href="#" class="btn--round btn">Get Started</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="site__name">
+      Shortly
+    </div>
+
+    <div class="site__features">
+      <p class="headers">Features</p>
+      <ul class="features__list">
+        <li class="features__item">
+          <a href="" class="features__link">Link Shortening</a>
+        </li>
+        <li class="features__item">
+          <a href="" class="features__link">Branded Links</a>
+        </li>
+        <li class="features__item">
+          <a href="" class="features__link">Analytics</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="site__resources">
+      <p class="headers">Resources</p>
+      <ul class="resources__list">
+        <li class="resources__item">
+          <a href="" class="resources__link">Blog</a>
+        </li>
+        <li class="resources__item">
+          <a href="" class="resources__link">Developers</a>
+        </li>
+        <li class="resources__item">
+          <a href="" class="resources__link">Support</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="site__pages">
+      <p class="headers">Company</p>
+      <ul class="pages__list">
+        <li class="pages__item">
+          <a href="#" class="pages__link">About</a>
+        </li>
+        <li class="pages__item">
+          <a href="#" class="pages__link">Our Team</a>
+        </li>
+        <li class="pages__item">
+          <a href="#" class="pages__link">Carers</a>
+        </li>
+        <li class="pages__item">
+          <a href="#" class="pages__link">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="site__socials">
+      <img src="images/icon-facebook.svg" alt="Facebook" class="site__social-media">
+      <img src="images/icon-twitter.svg" alt="Twitter" class="site__social-media">
+      <img src="images/icon-pinterest.svg" alt="Pinterest" class="site__social-media">
+      <img src="images/icon-instagram.svg" alt="Instagram" class="site__social-media">
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Riya Kushwaha</a>.
+    </div>
+
+  </footer>
+ 
+</body>
+</html>
