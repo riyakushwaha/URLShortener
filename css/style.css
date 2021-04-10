@@ -246,7 +246,7 @@ button {
         .links .link__input-box .user__link {
           flex: 1;
           margin-right: 0;
-          margin-bottom: 2rem;
+          margin-bottom: 3rem;
           padding: 1rem; } }
       .links .link__input-box .user__link::-webkit-input-placeholder {
         font-family: 'Poppins', sans-serif; }
@@ -273,7 +273,7 @@ button {
     .links .link__output-boxes .link__output-box {
       display: flex;
       background-color: #fff;
-      padding: 1rem 2.5rem;
+      padding: 0 2.5rem;
       border-radius: 5px;
       align-items: center;
       margin-top: 2rem; }
@@ -282,7 +282,9 @@ button {
           flex-direction: column;
           align-items: stretch;
           padding: 2.25rem;
-          height: 24vh; } }
+          height: 24vh;
+          justify-content: space-between;
+          position: relative; } }
       .links .link__output-boxes .link__output-box .input__link {
         flex: 60%;
         color: #35323e;
@@ -291,29 +293,30 @@ button {
         overflow: hidden; }
         @media only screen and (max-width: 37.5em) {
           .links .link__output-boxes .link__output-box .input__link {
-            flex: 33%; }
+            flex: 0 1 auto; }
             .links .link__output-boxes .link__output-box .input__link::after {
               content: "";
               display: block;
-              transform: translateY(1rem);
-              width: 100%;
-              height: 2px;
+              z-index: 78;
+              width: 88%;
+              height: 1px;
               background-color: #bfbfbf;
-              border: none; } }
+              border: none;
+              position: absolute;
+              top: 5.5rem; } }
       .links .link__output-boxes .link__output-box .output__link {
         flex: 25%;
         color: #2acfcf; }
         @media only screen and (max-width: 37.5em) {
           .links .link__output-boxes .link__output-box .output__link {
-            flex: 33%; } }
+            flex: 0 1 auto; } }
       .links .link__output-boxes .link__output-box .copy-btn {
         display: block;
         width: 14rem;
         text-align: center; }
         @media only screen and (max-width: 37.5em) {
           .links .link__output-boxes .link__output-box .copy-btn {
-            width: 100%;
-            flex: 33%; } }
+            width: 100%; } }
 
 .statistics {
   margin: 8rem 20rem 5rem 20rem; }
