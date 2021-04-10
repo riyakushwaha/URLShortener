@@ -67,7 +67,7 @@ button {
     opacity: 0; }
   .navbar label {
     height: 2.5px;
-    background-color: #000;
+    background-color: #bfbfbf;
     width: 3rem;
     position: absolute;
     display: none;
@@ -285,7 +285,10 @@ button {
           height: 24vh; } }
       .links .link__output-boxes .link__output-box .input__link {
         flex: 60%;
-        color: #35323e; }
+        color: #35323e;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden; }
         @media only screen and (max-width: 37.5em) {
           .links .link__output-boxes .link__output-box .input__link {
             flex: 33%; }
@@ -298,14 +301,14 @@ button {
               background-color: #bfbfbf;
               border: none; } }
       .links .link__output-boxes .link__output-box .output__link {
-        flex: 20%;
+        flex: 25%;
         color: #2acfcf; }
         @media only screen and (max-width: 37.5em) {
           .links .link__output-boxes .link__output-box .output__link {
             flex: 33%; } }
       .links .link__output-boxes .link__output-box .copy-btn {
         display: block;
-        width: 12rem;
+        width: 14rem;
         text-align: center; }
         @media only screen and (max-width: 37.5em) {
           .links .link__output-boxes .link__output-box .copy-btn {
