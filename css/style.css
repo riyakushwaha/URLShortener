@@ -227,6 +227,7 @@ button {
     padding: 0 5rem; }
     @media only screen and (max-width: 37.5em) {
       .links .link__input-box {
+        height: 42vw;
         flex-direction: column;
         padding: 3rem;
         align-items: stretch; } }
@@ -282,7 +283,7 @@ button {
           flex-direction: column;
           align-items: stretch;
           padding: 2.25rem;
-          height: 24vh;
+          height: 40vw;
           justify-content: space-between;
           position: relative; } }
       .links .link__output-boxes .link__output-box .input__link {
