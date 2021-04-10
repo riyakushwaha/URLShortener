@@ -78,7 +78,7 @@ button {
       position: absolute;
       display: block;
       height: 2.5px;
-      background-color: currentColor;
+      background-color: inherit;
       width: 3rem;
       top: -1rem; }
     .navbar label::before {
@@ -86,7 +86,7 @@ button {
       display: block;
       position: absolute;
       height: 3px;
-      background-color: currentColor;
+      background-color: inherit;
       width: 3rem;
       top: 1rem; }
     @media only screen and (max-width: 37.5em) {
@@ -249,7 +249,7 @@ button {
           flex: 0 1 auto;
           margin-right: 0;
           margin-bottom: 3rem;
-          padding: 1rem; } }
+          padding: 2rem; } }
       .links .link__input-box .user__link::-webkit-input-placeholder {
         font-family: 'Poppins', sans-serif; }
       .links .link__input-box .user__link-label {
