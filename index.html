@@ -19,6 +19,11 @@
     <div class="site-name">
       Shortly
     </div>
+    <input type="checkbox" class="menu" name="menu" id="menu">
+    <!-- <div class="menu-box"> -->
+      <label for="menu"></label>
+    <!-- </div> -->
+    
 
     <nav class="nav">
       <ul class="nav__items">
@@ -64,30 +69,31 @@
   <main class="main">
     <section class="links">
 
-      <div class="link__input-box">
-        <input type="text" class="user__link" id="user__link" placeholder="Shorten a link here...">
+      <form action="#" class="link__input-box" id="user-form">
+        <input type="text" class="user__link" id="user__link" placeholder="Shorten a link here..." />
         <label class="user__link-label" for="user__link">Please add a link</label>
-        <a href="#" class="btn--rect btn ">Shorten it!</a>
-      </div>
+        <button class="btn--rect btn ">Shorten it!</button>
+      </form>
+
  
       <div class="link__output-boxes">
 
         <div class="link__output-box data-box--1">
           <p class="input__link">https://www.frontendmentor.io</p>
           <p class="output__link">https://reLink/kbudcb</p>
-          <a href="#" class="btn--rect btn data-btn--1 copy-btn">Copy</a>
+          <button class="btn--rect btn data-btn--1 copy-btn">Copy</button>
         </div>
 
         <div class="link__output-box data-box--2">
           <p class="input__link">https://twitter.com/frontendmentor</p>
           <p class="output__link">https://reLink/bc4299</p>
-          <a href="#" class="btn--rect btn data-btn--2 copy-btn">Copied!</a>
+          <button class="btn--rect btn data-btn--2 copy-btn">Copied!</button>
         </div>
 
         <div class="link__output-box data-box--3">
           <p class="input__link">https://linkedin.com/company/frontend-mentor</p>
           <p class="output__link">https://reLink/bxhiqh</p>
-          <a href="#" class="btn--rect btn data-btn--3 copy-btn">Copy</a>
+          <button class="btn--rect btn data-btn--3 copy-btn">Copy</a>
         </div>
 
       </div>
@@ -149,7 +155,7 @@
       <h2 class="heading-secondary">
         Boost your links today
       </h2>
-      <a href="#" class="btn--round btn">Get Started</a>
+      <a href="section.links" class="btn--round btn">Get Started</a>
     </section>
   </main>
 
