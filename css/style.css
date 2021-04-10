@@ -227,10 +227,11 @@ button {
     padding: 0 5rem; }
     @media only screen and (max-width: 37.5em) {
       .links .link__input-box {
-        height: 42vw;
+        height: 18rem;
         flex-direction: column;
         padding: 3rem;
-        align-items: stretch; } }
+        align-items: stretch;
+        margin-top: -18vw; } }
     .links .link__input-box .user__link {
       flex: 70%;
       border-radius: 2px;
@@ -245,7 +246,7 @@ button {
       font-family: inherit; }
       @media only screen and (max-width: 37.5em) {
         .links .link__input-box .user__link {
-          flex: 1;
+          flex: 0 1 auto;
           margin-right: 0;
           margin-bottom: 3rem;
           padding: 1rem; } }
@@ -274,7 +275,7 @@ button {
     .links .link__output-boxes .link__output-box {
       display: flex;
       background-color: #fff;
-      padding: 0 2.5rem;
+      padding: 1rem 2.5rem;
       border-radius: 5px;
       align-items: center;
       margin-top: 2rem; }
@@ -283,7 +284,7 @@ button {
           flex-direction: column;
           align-items: stretch;
           padding: 2.25rem;
-          height: 40vw;
+          height: 18rem;
           justify-content: space-between;
           position: relative; } }
       .links .link__output-boxes .link__output-box .input__link {
