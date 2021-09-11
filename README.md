@@ -28,7 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<img src="images/URLShortener1.png" >
+<img src="images/URLShortener2.png">
 
 
 ### Links
